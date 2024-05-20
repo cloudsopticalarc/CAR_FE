@@ -9,8 +9,7 @@ export default defineConfig({
   ],
   build: {
     rollupOptions: {
-      external: ['@material-ui/core/utils'],
+      external: [],
     },
   },
 });
-
